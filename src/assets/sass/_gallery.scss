@@ -5,8 +5,9 @@
 
     &__list{
         width: 100%;
-        height: auto;
-        background-color: $text;
+        height: 100%;
+        min-height: 820px;
+        max-height: 100%;
         padding: 60px 35px;
     }
 
@@ -50,8 +51,8 @@
     &__cart{
         width: 400px;
         height: auto;
-        background-color: $text;
-        box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.14);
+        background-color: #202020;
+        box-shadow: 0px 4px 8px rgb(173,161,161,55%);
     }
 
     &__item__title__h2{
@@ -104,6 +105,14 @@
 
     .gallery__title__h2 {
         font-size: 28px;
+    }
+}
+
+@media(max-width:1300px){
+    .gallery__list {
+        height: 100%;
+        min-height: auto;
+        max-height: auto;
     }
 }
 

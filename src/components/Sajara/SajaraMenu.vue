@@ -6,7 +6,7 @@
 							<div class="sajara__item">
 								<div class="sajara__item__cart">
 										<div class="sajara__item__img">
-												<img src="@/assets/foto/sajara_1.png" alt="sajara">
+												<img src="@/assets/foto/fon_mrx.png" alt="sajara">
 										</div>
 											<h2 class="sajara__title__h2">Давронбой</h2>
 												<h3 class="sajara__title__h3">1904 - 1953 йил</h3>
