@@ -5,7 +5,6 @@
                 <div class="video__list">
                     <h2 class="gallery__title__h2">Видеогалерея</h2>
 
-
                     <section class="video__mrx1">
                         <div class="video__mrx1__video">
                            <video  :src="videoListMrx" controls muted ></video>

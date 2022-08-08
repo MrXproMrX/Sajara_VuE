@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import NewsBlog from '../../components/News/NewsBlog.vue';
-import NewsBlogs from '../../data/NewsBlogJs';
-import NewsPage from '../../components/News/NewsPage.vue'
+import NewsBlog from '@/components/News/NewsBlog.vue';
+import NewsBlogs from '@/data/NewsBlogJs';
+import NewsPage from '@/components/News/NewsPage.vue'
 export default {
     components:{
         NewsBlog,

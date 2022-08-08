@@ -9,7 +9,6 @@ import PhotoGallery_InsideView from '@/views/PhotoGallery_InsideView'
 import VideoGalleryView from '@/views/VideoGalleryView'
 import СontactsView from '@/views/СontactsView'
 import Look404View from '@/views/Look404View'
-import Sajara_InView from '@/views/Sajara_InView'
 
 Vue.use(VueRouter)
 
@@ -68,11 +67,6 @@ const routes = [
     component: Look404View
   },
 
-  {
-    path: '/Sajara_In',
-    name: 'Sajara_In',
-    component: Sajara_InView
-  },
 ]
 
 const router = new VueRouter({
