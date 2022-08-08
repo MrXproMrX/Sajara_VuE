@@ -4,7 +4,15 @@
             <section class="container">
                 <div class="video__list">
                     <h2 class="gallery__title__h2">Видеогалерея</h2>
-                    <VideoGalleryMenu :videos="videos"></VideoGalleryMenu>
+
+
+                    <section class="video__mrx1">
+                        <div class="video__mrx1__video">
+                           <video  :src="videoListMrx" controls muted ></video>
+                        </div>
+                    </section>
+
+                    <VideoGalleryMenu :videos="videos" @video="video"></VideoGalleryMenu>
                 </div>
             </section>
         </div>
@@ -21,8 +29,15 @@ export default {
 
     data(){
         return{
-             videos:VideoList
+             videos:VideoList,
+             videoListMrx:VideoList[0].videoList,
         }
-    }
+    },
+
+    methods:{
+        video(videoList){
+          this.videoListMrx = videoList
+        },
+    },
 }
 </script>

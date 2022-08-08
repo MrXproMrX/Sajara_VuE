@@ -39,11 +39,6 @@ export default[
     },
 
     {
-        videoList:video_2,
-        title:'Sed do eiusmod tempor incididunt',
-    },
-
-    {
         videoList:video_7,
         title:'Ut labore et dolore magna aliqua',
     },
