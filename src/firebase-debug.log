@@ -1,0 +1,14 @@
+[debug] [2022-08-08T12:35:38.674Z] ----------------------------------------------------------------------
+[debug] [2022-08-08T12:35:38.678Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-08-08T12:35:38.679Z] CLI Version:   11.4.2
+[debug] [2022-08-08T12:35:38.679Z] Platform:      win32
+[debug] [2022-08-08T12:35:38.680Z] Node Version:  v16.15.0
+[debug] [2022-08-08T12:35:38.725Z] Time:          Mon Aug 08 2022 17:35:38 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2022-08-08T12:35:38.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-08T12:35:38.859Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-08T12:35:38.859Z] > authorizing via signed-in user (ismailovmarat2020@gmail.com)
+[debug] [2022-08-08T12:35:38.859Z] [iam] checking project sajara-sosgroup-uz for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-08T12:35:38.861Z] > refreshing access token with scopes: []
+[debug] [2022-08-08T12:35:38.864Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-08T12:35:38.864Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]

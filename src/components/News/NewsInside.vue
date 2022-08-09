@@ -5,7 +5,7 @@
                <div class="news_in__list clearfix">
                    <div class="news_in__item">
                        <div class="news_in__img">
-                           <img :src="NewsBlog.img" :alt="NewsBlog.title">
+                           <a target="_blank" :href="NewsBlog.button"><img :src="NewsBlog.img" :alt="NewsBlog.title"></img></a>
                        </div>
                    </div>
 
